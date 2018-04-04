@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 1q2w3e4r
+    url: jdbc:mysql://127.0.0.1:3306/myblog?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+server:
+  port: 8080
+logging:
+  file: blog.log
+  path: logs/
+  level.root: info
+
+####add log config
